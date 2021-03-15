@@ -98,7 +98,7 @@ p {
   text-decoration: none;
   color: #000000;
 }
-.logo-footer{
+.logo.inverse{
   color: #fff;
 }
 
@@ -283,7 +283,9 @@ p {
   margin-top: 20px;
   font-style: normal;
 }
-
+.address-items>li {
+  margin-top: 9px;
+}
 .address-items .link {
   font-size: 14px;
   line-height: 1.71;
@@ -316,11 +318,16 @@ p {
 .portfolio-cards .item {
   width: calc((100% - 90px) / 3);
   margin-left: 30px;
-  margin-top: 30px;
-  
+  margin-top: 30px;  
 }
+.portfolio-cards .link {
+  display: block;
+}
+
 .portfolio-cards img {
   display: block;
+  max-width: 100%;
+  height: auto;
 } 
 .portfolio-cards .content {
   padding: 20px 24px;
